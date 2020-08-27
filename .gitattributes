@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+#* text=auto
+
+# Example of a `.gitattributes`
+#*.cpp linguist-language=C
+
+* linguist-vendored
+*.cpp linguist-vendored=false
